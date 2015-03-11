@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+body {
+  padding: 0 5%;
+}
+
+.page__wrapper {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+/**
+ * Header basic style
+ */
+.page__header {
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  top: 70px;
+}
+
+
+
+
+
+/**
+ * Header font and color style
+ */
+.page__header__title {
+  float: left;
+}
+
+
+.page__header__title {
+  letter-spacing: -0.04em;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+.page__header__title a {
+  transition: color .25s ease-in;
+  display: block;
+  color: $black;
+  &:hover {
+    color: lighten($black, 20%);
+  }
+}
+
+
+
+
+
+/**
+ * Header navigation
+ */
+.page__header__navigation {
+  float: right;
+}
+
+
+.page__header__navigation ul li {
+
+}
