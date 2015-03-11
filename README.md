@@ -1,7 +1,7 @@
 Recipe
 ======
 
-This repo is portfolio theme for me but you're welcome to make suggestions. I try to something new in this website to keep up to date on Front-End technology or methodology.
+This repo is portfolio theme for me but you're welcome to make suggestions. It is original portfolio desgin. When I create blog theme for blog platform, theme will be based on this desgin. I try to something new in this website to keep up to date on Front-End technology or methodology.
 
 ## Table Of Contents
 
