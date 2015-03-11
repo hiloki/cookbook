@@ -5,8 +5,19 @@ This repo is portfolio theme for me but you're welcome to make suggestions. I tr
 
 ## Table Of Contents
 
+- [Install](#install)
+- [Usage](#usage)
 - [Todo](#todo)
 - [License](#license) 
+
+## Install 
+
+    $ git clone git@github.com:sotayamashita/recipe.git
+    $ [sudo] npm install
+
+## Usage
+
+    $ npm run serve
 
 ## Todo
 
