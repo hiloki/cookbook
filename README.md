@@ -22,6 +22,7 @@ This repo is portfolio theme for me but you're welcome to make suggestions. It i
 ## Todo
 
 - [ ] Summarize styles in `base/`
+- [ ] Create the demo page on Heroku
 
 ## License
 
