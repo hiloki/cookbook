@@ -1,25 +1,26 @@
 /*------------------------------------*\
-    #LAYOUT
+    #HEADER
 \*------------------------------------*/
 
-body {
-  padding: 0 5%;
-}
-
-.page__wrapper {
+.page {
   position: relative;
   width: 100%;
   top: 0;
 }
 
+
+
+
+
 /**
  * Header basic style
  */
-.page__header {
-  position: absolute;
-  margin-bottom: 0;
+.site__header {
+  @extend .cf;
+  padding-top: 70px;
   width: 100%;
-  top: 70px;
+// position: absolute;
+// top: 70px;
 }
 
 
@@ -27,22 +28,18 @@ body {
 
 
 /**
- * Header font and color style
+ * Header Title
  */
-.page__header__title {
+.site__header__title {
   float: left;
 }
 
 
-.page__header__title {
-  letter-spacing: -0.04em;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-
-.page__header__title a {
+.site__header__title a {
+  @include font($lato, 15, $black);
   transition: color .25s ease-in;
+  letter-spacing: -0.02em;
+  font-weight: 700;
   display: block;
   color: $black;
   &:hover {
@@ -57,11 +54,23 @@ body {
 /**
  * Header navigation
  */
-.page__header__navigation {
+.site__header__navigation {
   float: right;
 }
 
-
-.page__header__navigation ul li {
-
+.site__header__navigation__item a {
+  @include font($lato, 15, $black);
+  transition: padding-bottom 0.25s;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border: none;
+/**
+ * TODO: Add hover, after creating all menu
+ */
+// &:hover {
+//   border-bottom: 2px solid $black;
+//   padding-bottom: 4px;
+// }
+cursor: auto;
 }
