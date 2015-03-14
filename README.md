@@ -31,6 +31,7 @@ Start local web server:
 - [ ] Summarize styles in `base/`
 - [x] Create the demo page
 - [ ] Create post list
+- [ ] Create website desgin with Sketch and put it on `design/`:wq
 
 ## License
 
