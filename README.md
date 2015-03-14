@@ -12,7 +12,7 @@ This repo is portfolio theme for me but you're welcome to make suggestions. It i
 
 ## Install 
 
-    $ git clone git@github.com:sotayamashita/recipe.git
+    $ git clone git@github.com:sotayamashita/stuff.git
     $ [sudo] npm install
 
 ## Usage
