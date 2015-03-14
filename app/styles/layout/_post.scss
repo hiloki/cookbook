@@ -76,5 +76,8 @@
  * Entry Content Img
  */
 .entry__content img {
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.22);
+  border-radius: $brand-round;
   margin-bottom: 30px;
+
 }
