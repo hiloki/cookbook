@@ -50,14 +50,22 @@
 }
 
 
+.entry__content h2 {
+  @include font($lato, 26, $black);
+  letter-spacing: 0.04px;
+  line-height: 1.85;
+  margin-top: 2em;
+}
+
+
 /**
  * Entry Content Paragraph
  */
 .entry__content p {
   @include font($lato, 16, $black);
-  margin-bottom: 30px;
   letter-spacing: 0.04px;
   line-height: 1.85;
+  margin: 1.5em 0;
 }
 
 
@@ -67,8 +75,7 @@
 .entry__content a {
   @include font($lato, 16, $black);
   text-decoration: underline;
-  margin-bottom: 30px;
-  display: block;
+  margin: 1.5em 0;
 }
 
 
@@ -78,5 +85,5 @@
 .entry__content img {
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.22);
   border-radius: $brand-round;
-  margin-bottom: 30px;
+  margin: 1.5em 0;
 }
