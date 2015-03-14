@@ -17,12 +17,20 @@ This repo is portfolio theme for me but you're welcome to make suggestions. It i
 
 ## Usage
 
+Check the available script list:
+
+    $ npm run
+
+Start local web server:
+
     $ npm run serve
+
 
 ## Todo
 
 - [ ] Summarize styles in `base/`
-- [ ] Create the demo page on Heroku
+- [x] Create the demo page
+- [ ] Create post list
 
 ## License
 
