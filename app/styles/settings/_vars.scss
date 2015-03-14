@@ -11,47 +11,6 @@
  */
 
 
-
-
-
-/*------------------------------------*\
-    $OBJECTS-AND-ABSTRACTIONS
-\*------------------------------------*/
-/**
- * All of inuit.css’ objects and abstractions are initially turned off by
- * default. This means that you start any project with as little as possible,
- * and introducing objects and abstractions is as simple as switching the
- * following variables to `true`.
- */
-$use-grids:         false;
-$use-flexbox:       false;
-$use-columns:       false;
-$use-nav:           false;
-$use-options:       false;
-$use-pagination:    false;
-$use-breadcrumb:    false;
-$use-media:         false;
-$use-marginalia:    false;
-$use-island:        false;
-$use-block-list:    false;
-$use-matrix:        false;
-$use-split:         false;
-$use-this-or-this:  false;
-$use-link-complex:  false;
-$use-flyout:        false;
-$use-arrows:        false;
-$use-sprite:        false;
-$use-icon-text:     false;
-$use-beautons:      false;
-$use-lozenges:      false;
-$use-rules:         false;
-$use-stats:         false;
-$use-greybox:       false;
-
-
-
-
-
 /*------------------------------------*\
     $OVERRIDES
 \*------------------------------------*/
@@ -69,6 +28,14 @@ $use-greybox:       false;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+/**
+ * Font family variables
+ */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,700italic|Hammersmith+One);
+//'メイリオ','Meiryo',
+$lato:            'Lato', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3' ;
+$hammer:          'Hammersmith One', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HiraKakuPro-W3';
+
 
 /**
  * Color
