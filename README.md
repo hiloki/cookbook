@@ -36,5 +36,5 @@ Start local web server:
 
 ## License
 
-[MIT](http://sotayamashita.mit-license.org/) © [Sota Yamashita](https://github.com/sotayamashita)
+[GNU](https://github.com/sotayamashita/stuff/blob/master/LICENSE.md) © [Sota Yamashita](https://github.com/sotayamashita)
 
