@@ -32,6 +32,7 @@ Start local web server:
 - [x] Create the demo page
 - [ ] Create post list
 - [ ] Create website desgin with Sketch and put it on `design/`
+- [ ] Add code hightlight feature
 
 ## License
 
