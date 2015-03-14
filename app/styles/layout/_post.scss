@@ -57,6 +57,10 @@
   margin-top: 2em;
 }
 
+.entry__content > h2 {
+  margin-top: 0;
+}
+
 
 /**
  * Entry Content Paragraph
@@ -86,4 +90,25 @@
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.22);
   border-radius: $brand-round;
   margin: 1.5em 0;
+}
+
+
+/**
+ * Entry Content Code
+ */
+pre {
+  border-radius: $brand-round;
+  background: #f7f7f7;
+  word-wrap: nomal;
+  margin: 1.5em 0;
+  font-size: 85%;
+  line-height: 1.45;
+  padding: 16px;
+  code {
+    display: inline;
+    overflow: initial;
+    max-width: initial;
+    margin: 0;
+    padding: 0;
+  }
 }
