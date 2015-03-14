@@ -6,7 +6,8 @@
   "scripts": {
     "extras": "gulp extras",
     "build": "gulp build",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "autoprefixer-core": "^4.0.2",
