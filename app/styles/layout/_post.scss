@@ -77,9 +77,14 @@
  * Entry Content Link
  */
 .entry__content a {
+  transition: background-color 0.3s, border-color 0.3s;
+  border-bottom: 1px solid rgba(52,73,94,0.4);
   @include font($lato, 16, $black);
-  text-decoration: underline;
   margin: 1.5em 0;
+  &:hover {
+    border-color: rgba(52,73,94,0);
+    background-color: rgba(52,73,94,0.1);
+  }
 }
 
 
