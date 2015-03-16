@@ -14,6 +14,7 @@ This repo is portfolio theme for me but you're welcome to make suggestions. It i
 
     $ git clone git@github.com:sotayamashita/recipes.git
     $ [sudo] npm install
+    $ bower install
 
 ## Usage
 
