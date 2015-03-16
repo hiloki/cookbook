@@ -54,7 +54,7 @@
   @include font($lato, 26, $black);
   letter-spacing: 0.04px;
   line-height: 1.85;
-  margin-top: 2em;
+  margin: 2em 0 0.5em !important;
 }
 
 .entry__content > h2 {
@@ -69,7 +69,7 @@
   @include font($lato, 16, $black);
   letter-spacing: 0.04px;
   line-height: 1.85;
-  margin: 1.5em 0;
+  margin: 0 0 1.5em;
 }
 
 
