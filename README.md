@@ -5,7 +5,7 @@ This repo is portfolio theme for me but you're welcome to make suggestions. It i
 
 ## Table of Contents
 
-- [Install](#install)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Templates](#templates)
 - [Todo](#todo)
