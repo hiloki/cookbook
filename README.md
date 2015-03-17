@@ -1,7 +1,7 @@
 Recipes
 ======
 
-This repo is portfolio theme for me but you're welcome to make suggestions. It is original portfolio desgin. When I create blog theme for blog platform, theme will be based on this desgin. I try to something new in this website to keep up to date on Front-End technology or methodology.
+This repository is mainly a place for me to create theme in various platforms. You're welcome to make suggestions. Base design is located on `app/` and other theme will be located on `recipes/` under each blog platform name. If any blog platform release, I try to create my theme for it.
 
 ## Table of Contents
 
