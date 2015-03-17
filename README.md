@@ -44,8 +44,3 @@ Start local web server:
 ## License
 
 [GNU](https://github.com/sotayamashita/stuff/blob/master/LICENSE.md) © [Sota Yamashita](https://github.com/sotayamashita)
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sotayamashita/recipes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
