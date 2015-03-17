@@ -2,7 +2,6 @@ Recipes
 ======
 
 [![Dependency Status](https://gemnasium.com/sotayamashita/recipes.svg)](https://gemnasium.com/sotayamashita/recipes)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/sotayamashita/recipes)
 
 This repository is mainly a place for me to create theme in various platforms. You're welcome to make suggestions. Base design is located on `app/` and other theme will be located on `recipes/` under each blog platform name. If any blog platform release, I try to create my theme for it.
 
