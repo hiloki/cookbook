@@ -3,14 +3,15 @@ Recipes
 
 This repo is portfolio theme for me but you're welcome to make suggestions. It is original portfolio desgin. When I create blog theme for blog platform, theme will be based on this desgin. I try to something new in this website to keep up to date on Front-End technology or methodology.
 
-## Table Of Contents
+## Table of Contents
 
 - [Install](#install)
 - [Usage](#usage)
+- [Templates](#templates)
 - [Todo](#todo)
 - [License](#license) 
 
-## Install 
+## Installation
 
     $ git clone git@github.com:sotayamashita/recipes.git
     $ [sudo] npm install
@@ -26,6 +27,9 @@ Start local web server:
 
     $ npm run serve
 
+## Templates
+
+- [Hugo](https://github.com/sotayamashita/recipes/tree/master/recipes/hugo)
 
 ## Todo
 
