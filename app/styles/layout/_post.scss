@@ -54,7 +54,8 @@
   @include font($lato, 26, $black);
   letter-spacing: 0.04px;
   line-height: 1.85;
-  margin: 2em 0 0.5em !important;
+// margin: 2em 0 0.5em !important;
+  margin:2em 0 1.5em;
 }
 
 
@@ -65,7 +66,8 @@
   @include font($lato, 16, $black);
   letter-spacing: 0.04px;
   line-height: 1.85;
-  margin: 0 0 1.5em;
+// margin: 0 0 1.5em;
+  margin-bottom: 1.5em;
 }
 
 
@@ -76,7 +78,8 @@
   transition: background-color 0.3s, border-color 0.3s;
   border-bottom: 1px solid rgba(52,73,94,0.4);
   @include font($lato, 16, $black);
-  margin: 1.5em 0;
+// margin: 1.5em 0;
+  margin-bottom: 1.5em;
   &:hover {
     border-color: rgba(52,73,94,0);
     background-color: rgba(52,73,94,0.1);
@@ -90,7 +93,8 @@
 .entry__content img {
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.22);
   border-radius: $brand-round;
-  margin: 1.5em 0;
+// margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 
@@ -101,7 +105,8 @@
   border-radius: $brand-round;
   background: #f7f7f7;
   word-wrap: nomal;
-  margin: 1.5em 0;
+margin: 1.5em 0;
+  margin-bottom: 1.5em;
   font-size: 85%;
   line-height: 1.45;
   padding: 16px;
