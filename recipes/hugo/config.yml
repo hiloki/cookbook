@@ -1,10 +1,11 @@
 ---
-baseurl:      "http://sotayamashita.github.io/"
-title:        "Hugo Blog Template for GitHub Pages"
-contentdir:   "content"
-layoutdir:    "layouts"
-publishdir:   "public"
-canonifyurls: true
+baseurl:        "http://sotayamashita.github.io/"
+title:          "Hugo Blog Template for GitHub Pages"
+contentdir:     "content"
+layoutdir:      "layouts"
+publishdir:     "public"
+canonifyurls:   true
+metaDataFormat: "yaml"
 indexes:
-  category:   "categories"
+  category:     "categories"
 ...
