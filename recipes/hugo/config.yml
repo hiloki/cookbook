@@ -6,6 +6,13 @@ layoutdir:      "layouts"
 publishdir:     "public"
 canonifyurls:   true
 metaDataFormat: "yaml"
+uglyUrls:       false
 indexes:
   category:     "categories"
+params:
+  AuthorName: "Sota Yamashita"
+  GitHubUser: "sotayamashita"
+  description:"Hugo Boilerplate Project"
+permalinks:
+  post: /:year/:title/
 ...
