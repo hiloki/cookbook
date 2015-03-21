@@ -5,9 +5,10 @@
   },
   "scripts": {
     "extras": "gulp extras",
-    "build": "gulp build",
-    "serve": "gulp serve",
-    "deploy": "gulp deploy"
+    "build":  "gulp build",
+    "serve":  "gulp serve",
+    "deploy": "gulp deploy",
+    "clean":  "gulp clean"
   },
   "devDependencies": {
     "autoprefixer-core": "^4.0.2",
