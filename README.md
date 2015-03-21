@@ -39,6 +39,7 @@ Start local web server:
 - [ ] Create post list
 - [ ] Create website desgin with Sketch and put it on `design/`
 - [ ] Add code hightlight feature
+- [ ] Use same `gulpfile`
 
 ## License
 
