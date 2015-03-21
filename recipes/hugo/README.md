@@ -5,6 +5,7 @@ Hugo themes
 
 - [Configuration](#configuration)
 - [Content template](#content-template)
+- [Creating a Theme](#creating-a-theme)
 
 ## Congiguration 
 
@@ -45,4 +46,8 @@ _[Read more about Hugo-defined variables that you can configure and their curren
         ---
 
 _[Read more about predefined variables that Hugo is aware of and utilizes](http://gohugo.io/content/front-matter/)_
+
+## Creating a Theme
+
+_[Read more about creating a theme](http://gohugo.io/themes/creation/)_
 
