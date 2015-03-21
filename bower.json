@@ -1,5 +1,5 @@
 {
-  "name": "recipes",
+  "name": "cookbook",
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",

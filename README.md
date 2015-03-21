@@ -1,7 +1,6 @@
-Recipes
+Cookbook
 ======
 
-[![Dependency Status](https://gemnasium.com/sotayamashita/recipes.svg)](https://gemnasium.com/sotayamashita/recipes)
 
 This repository is mainly a place for me to create theme in various platforms. You're welcome to make suggestions. Base design is located on `app/` and other theme will be located on `recipes/` under each blog platform name. If any blog platform release, I try to create my theme for it.
 
@@ -15,7 +14,7 @@ This repository is mainly a place for me to create theme in various platforms. Y
 
 ## Installation
 
-    $ git clone git@github.com:sotayamashita/recipes.git
+    $ git clone git@github.com:sotayamashita/cookbook.git
     $ [sudo] npm install
     $ bower install
 
@@ -31,7 +30,7 @@ Start local web server:
 
 ## Templates
 
-- [Hugo](https://github.com/sotayamashita/recipes/tree/master/recipes/hugo)
+- [Hugo](https://github.com/sotayamashita/cookbook/tree/master/recipes/hugo)
 
 ## Todo
 
@@ -43,4 +42,4 @@ Start local web server:
 
 ## License
 
-[GNU](https://github.com/sotayamashita/stuff/blob/master/LICENSE.md) © [Sota Yamashita](https://github.com/sotayamashita)
+[GNU](https://github.com/sotayamashita/cookbook/blob/master/LICENSE.md) © [Sota Yamashita](https://github.com/sotayamashita)
