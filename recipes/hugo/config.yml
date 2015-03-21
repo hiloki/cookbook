@@ -1,0 +1,10 @@
+---
+baseurl:      "http://sotayamashita.github.io/"
+title:        "Hugo Blog Template for GitHub Pages"
+contentdir:   "content"
+layoutdir:    "layouts"
+publishdir:   "public"
+canonifyurls: true
+indexes:
+  category:   "categories"
+...
