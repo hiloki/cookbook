@@ -12,7 +12,7 @@ indexes:
 params:
   AuthorName: "Sota Yamashita"
   GitHubUser: "sotayamashita"
-  description:"Hugo Boilerplate Project"
+  description: "Hugo Boilerplate Project"
 permalinks:
   post: /:year/:title/
 ...
