@@ -1,0 +1,17 @@
+/**
+ * Footer disqus
+ */
+.page__footer__disqus {
+  margin-bottom: 5em;
+}
+
+
+/**
+ * Footer copyright
+ */
+.page__footer__copyright {
+  @include font($lato, 16, #abb4b9);
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding: 1em 0;
+}

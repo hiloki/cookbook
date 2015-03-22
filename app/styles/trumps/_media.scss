@@ -26,4 +26,11 @@
    */
   .entry__header__title { @include font($lato, 32, $black); }
 
+
+  /**
+   * Visibility
+   */
+  .media-query--small {
+    visibility: hidden;
+  }
 }
