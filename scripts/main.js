@@ -1,1 +1,1 @@
-console.log("\nMañana venid temprano\nque haremos cosas muy bonitas.\n\nBy Antoni Gaudi\n");
+console.log("\nMañana venid temprano\nque haremos cosas muy bonitas.\n\nBy Antoni Gaudi\n\n");
