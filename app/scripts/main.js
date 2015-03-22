@@ -1,2 +1,2 @@
 /* jshint devel:true */
-console.log('\'Allo \'Allo!');
+console.log('\nMañana venid temprano\nque haremos cosas muy bonitas.\n\nBy Antoni Gaudi\n');
