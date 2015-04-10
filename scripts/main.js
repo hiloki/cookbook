@@ -1,1 +1,1 @@
-console.log("\nMañana venid temprano\nque haremos cosas muy bonitas.\n\nBy Antoni Gaudi\n\n");
+console.log("\nMañana venid temprano\nque haremos cosas muy bonitas.\n\nBy Antoni Gaudi\n\n"),!function(n,e,o){if(!o)return!0;var a=0,t=0;e.addEventListener("scroll",function(){a=n.body.offsetHeight,t=e.pageYOffset,$(e).scrollTop()>=a-t?$(o).fadeOut():$(o).fadeIn()})}(document,window,".widget__share");
