@@ -2,6 +2,10 @@
     #MEDIA
 \*------------------------------------*/
 
+@media (max-width: 815px) {
+  .widget--share__title { display: none; }
+}
+
 @media (max-width: 600px) {
 
   /**
@@ -33,4 +37,38 @@
   .media-query--small {
     visibility: hidden;
   }
+
+
+  /**
+   * Widget
+   */
+  .widget__share {
+    padding: 0;
+  }
+
+  .widget--share__item:not(:last-child) {
+    border-right: 1px solid #e4e4e5;
+  }
+
+  .widget--share__item {
+    width: calc((100% - 3px) / 3);
+  }
+
+  .social-sharing a {
+    margin:        0       !important;
+    text-align:    center  !important;
+    display:       block   !important;
+    background:    #fff    !important;
+    color:         #e4e4e5 !important;
+    border-radius: 0       !important;
+    &:hover {
+      color: $black        !important;
+    }
+  }
+
+  .share-count {
+    display: none !important;
+  }
+
+
 }
