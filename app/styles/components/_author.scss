@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    $AUTHOR
+\*------------------------------------*/
+.entry__footer__author {
+/* border-top: 1px solid #e4e4e4;  padding: 10px 0; */
+}
+
+
+.entry__footer__author__title {
+  @include font($lato, 11, rgba(0,0,0,0.3));
+  text-transform: uppercase;
+}
+
+.entry__footer__author__name {
+  @include font($lato, 13, rgba(0,0,0,0.44));
+  padding: 10px 0;
+}
+
+.entry__footer__author__about {
+  @include font($lato, 13, rgba(0,0,0,0.44));
+  margin-bottom: 30px;
+}
