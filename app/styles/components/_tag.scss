@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    $Tag
+\*------------------------------------*/
+
+.entry__footer__tag__list {
+
+}
+
+.entry__footer__tag__item {
+  a {
+    @include font($lato, 14, rgba(0,0,0,0.44));
+    border-radius: $brand-round;
+    border: 1px solid #e4e4e4;
+    background: #fafafa;
+  }
+}
