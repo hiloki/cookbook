@@ -1,3 +1,4 @@
+/* jshint ignore:start */
 /*============================================================================
   Social Icon Buttons v1.0
   Author:
@@ -93,3 +94,4 @@ CSbuttons.socialSharing = function () {
 $(function() {
   window.CSbuttons.init();
 });
+/* jshint ignore:end */
