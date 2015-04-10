@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    $WIDGET
+\*------------------------------------*/
+/**
+ * WIDGET SHARE.....social network list
+ *
+ */
+/*------------------------------------*\
+    $WIDGET SHARE
+\*------------------------------------*/
+.widget__share {
+  border-top: 1px solid #e4e4e4;
+  padding: 20px 1.55556rem;
+  position: relative;
+  background: #fff;
+}
+
+.widget--share__title {
+  border-radius: $brand-round;
+  background: #f65a5b;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 20px;
+  &:hover {
+    opacity: .9;
+  }
+}
+
+
+.widget--share__list {
+  max-width: 720px;
+  margin: 0 auto;
+  @extend .cf;
+  > li{ float: left;}
+}
+
+
+
+
+
+/**
+ * widget fixed
+ */
+.widget--fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
