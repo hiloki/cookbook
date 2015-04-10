@@ -81,7 +81,8 @@
   transition: background-color 0.3s, border-color 0.3s;
   border-bottom: 1px solid rgba(52,73,94,0.4);
   @include font($lato, 16, $black);
-  margin-bottom: 1.5em;
+  padding: 4px 0 4px 2px;
+  margin: 0 2px 1.5em 0;
   &:hover {
     border-color: rgba(52,73,94,0);
     background-color: rgba(52,73,94,0.1);
