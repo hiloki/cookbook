@@ -19,7 +19,7 @@ Sota Yamashita
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cookbook</title>
+    <title>Cookbook</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -39,6 +39,30 @@ Sota Yamashita
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <div class="widget__share widget--fixed">
+      <a href="/" class="widget--share__title"></a>
+      <ul class="widget--share__list">
+        <li class="widget--share__item is-large social-sharing">
+          <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://labs.carsonshold.com/social-sharing-buttons" class="share-facebook">
+            <span class="icon icon-facebook"></span>
+            <span class="share-count">0</span>
+          </a>
+        </li>
+        <li class="widget--share__item is-large social-sharing">
+          <a target="_blank" href="http://twitter.com/share?url=http://labs.carsonshold.com/social-sharing-buttons" class="share-twitter">
+            <span class="icon icon-twitter"></span>
+            <span class="share-count">0</span>
+          </a>
+        </li>
+        <li class="widget--share__item is-large social-sharing">
+          <a target="_blank" href="http://plus.google.com/share?url=http://labs.carsonshold.com/social-sharing-buttons" class="share-google">
+            <span class="icon icon-google"></span>
+            <span class="share-count">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
 
 
     <header class="wrap site__header">
@@ -70,20 +94,14 @@ Sota Yamashita
         <article class="entry">
             <header class="entry__header">
 
-              <!--
-              <ul class="entry__category__list">
-                <li><a href="">Design</a></li>
-                <li><a href="">Website</a></li>
-                <li><a href="">CSS3</a></li>
-              </ul>
-              -->
-
               <h1 class="entry__header__title">
                 Original Website Theme
               </h1>
+
               <time class="entry__header__created">
                 March 2015
               </time>
+
             </header>
 
 
@@ -133,6 +151,17 @@ $ [sudo] npm install</code></pre>
               </div>
               <div class="entry__footer__disqus">
                 <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES * * */
+                    var disqus_shortname = 'cookbooktheme';
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
                 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
               </div>
             </div>
@@ -150,12 +179,12 @@ $ [sudo] npm install</code></pre>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61747040-1', 'auto');ga('send', 'pageview');
     </script>
 
     <!-- build:js scripts/vendor.js -->
@@ -164,20 +193,10 @@ $ [sudo] npm install</code></pre>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 
-    <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES * * */
-      var disqus_shortname = 'sotayamashita';
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
+    <script src="scripts/social-buttons.js"></script>
 </body>
 </html>
