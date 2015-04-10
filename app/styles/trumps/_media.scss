@@ -70,5 +70,11 @@
     display: none !important;
   }
 
+  .social-sharing a,
+  .social-sharing span,
+  .social-sharing .icon::before,{
+    line-height: 45px   !important;
+    height:      45px   !important;
+  }
 
 }
