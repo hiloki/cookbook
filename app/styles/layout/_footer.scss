@@ -10,8 +10,7 @@
  * Footer copyright
  */
 .page__footer__copyright {
-  @include font($lato, 16, #abb4b9);
-  margin-bottom: 1.5em;
-  text-align: center;
+  @include font($lato, 11, rgba(0,0,0,0.3));
+  text-transform: uppercase;
   padding: 1em 0;
 }

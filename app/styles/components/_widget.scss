@@ -10,7 +10,7 @@
 \*------------------------------------*/
 .widget__share {
   border-top: 1px solid #e4e4e4;
-  padding: 15px 1.55556rem;
+  padding: 10px 1.55556rem;
   position: relative;
   background: #fff;
 }
@@ -19,9 +19,9 @@
   border-radius: $brand-round;
   background: #f65a5b;
   position: absolute;
-  height: 40px;
-  width: 40px;
-  top: 15px;
+  height: 33px;
+  width: 33px;
+  top: 10px;
   &:hover {
     opacity: .9;
   }
